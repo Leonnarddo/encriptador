@@ -46,12 +46,14 @@ main{
     font-family: 'Carter One', cursive;
 }
 .texto {
+    width: 340px;
+    height: 205px;
     background-color: transparent;
     border: none;
     color: #AE9A6C;
-    margin-right: auto;
+    margin-right: auto; 
     font-size: 22px;
-    margin-top: 49px;
+    margin-top: 49px ;
     padding: 0 10px;
     text-transform: lowercase;
     resize: none;
@@ -91,6 +93,7 @@ main{
     color: #AE9A6C;
     margin-left: 8px;
     margin-top: 150px;
+    width: 250px;
     height: 380px;   
     font-size: 18px;
     padding-left: 10px;
