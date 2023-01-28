@@ -68,9 +68,8 @@ main{
 
 .panelDerecho{
     text-align: center;
-    background-image: url("./imagenes/fondo-seccion-der2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("/imagenes/fondo-seccion-der2.png");
+    background-size: contain;
     width: 350px;
     height: 742px;  
     align-items: center;
@@ -141,5 +140,5 @@ main{
 .informacion {
     color: #AE9A6C;
     font-size: 12px;
-    margin:  25px 210px;
+    margin:  25px 210px;    
 }
