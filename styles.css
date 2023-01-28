@@ -68,7 +68,7 @@ main{
 
 .panelDerecho{
     text-align: center;
-    background-image: url("/imagenes/fondo-seccion-der2.png");
+    background-image: url("./imagenes/fondo-seccion-der2.png");
     background-size: contain;
     width: 350px;
     height: 742px;  
