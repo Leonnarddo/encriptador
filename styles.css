@@ -28,7 +28,7 @@ main{
 
 .panelIzquierdo{
     text-align: center;
-    background-image: url("/imagenes/fondo-seccion-izq.png");
+    background-image: url("./imagenes/fondo-seccion-izq.png");
     background-size: 685px;
     height: 745px;    
     align-items: center;
@@ -62,7 +62,7 @@ main{
 
 .panelDerecho{
     text-align: center;
-    background-image: url("/imagenes/fondo-seccion-der2.png");
+    background-image: url("./imagenes/fondo-seccion-der2.png");
     background-size: contain;
     width: 350px;
     height: 742px;    
@@ -72,7 +72,7 @@ main{
 
 .mensaje {
     background: transparent;
-    background-image: url("/imagenes/cryptex.png");
+    background-image: url("./imagenes/cryptex.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -133,6 +133,5 @@ main{
 .informacion {
     color: #AE9A6C;
     font-size: 12px;
-    margin:  25px 210px;
-    
+    margin:  25px 210px;    
 }
