@@ -6,12 +6,18 @@
 }
 
 html{
-    background-image: url("/imagenes/fondo.jpg");
+    background-image: url("./imagenes/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 
+}
+
+.todo {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1200px;
 }
 
 .logo {
@@ -23,12 +29,12 @@ html{
 main{
     display: flex;
     margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .panelIzquierdo{
     text-align: center;
-    background-image: url("/imagenes/fondo-seccion-izq.png");
+    background-image: url("./imagenes/fondo-seccion-izq.png");
     background-size: 685px;
     height: 745px;    
     align-items: center;
@@ -48,7 +54,7 @@ main{
     margin-top: 19px;
     padding: 0 10px;
     text-transform: lowercase;
-    resize: none;
+    resize: none;y
 }
 
 .texto::placeholder { 
@@ -62,17 +68,19 @@ main{
 
 .panelDerecho{
     text-align: center;
-    background-image: url("/imagenes/fondo-seccion-der2.png");
-    background-size: contain;
+    background-image: url("./imagenes/fondo-seccion-der2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 350px;
-    height: 742px;    
+    height: 742px;  
     align-items: center;
     margin-left: 90px;
+    
 }
 
 .mensaje {
     background: transparent;
-    background-image: url("/imagenes/cryptex.png");
+    background-image: url("./imagenes/cryptex.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
