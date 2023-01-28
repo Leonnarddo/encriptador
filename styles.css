@@ -41,7 +41,7 @@ main{
 }
 
 .titulo {
-    padding-top: 170px;
+    padding-top: 205px;
     color: #AE9A6C;
     font-family: 'Carter One', cursive;
 }
@@ -51,20 +51,25 @@ main{
     color: #AE9A6C;
     margin-right: auto;
     font-size: 22px;
-    margin-top: 19px;
+    margin-top: 49px;
     padding: 0 10px;
     text-transform: lowercase;
     resize: none;
 }
 
 .texto::placeholder { 
-    color: #AE9A6C;
+    color: #686255;
 }
 
 .texto:focus {
     outline: none;
 }
 
+.informacion {
+    color: #AE9A6C;
+    font-size: 12px;
+    margin:  10px 210px;    
+}
 
 .panelDerecho{
     text-align: center;
@@ -95,9 +100,10 @@ main{
     outline: none;
 }
 
+
 .botones{
     display: flex;
-    margin: 45px 170px;    
+    margin: 30px 170px;    
 }
 
 .encriptar {
@@ -110,6 +116,7 @@ main{
     height: 40px;
     width: 160px;
 }
+
 .desencriptar {
     background: #596D5B;
     border: 1px solid #202923;
@@ -121,7 +128,6 @@ main{
     margin-left: 20px;
     width: 160px;
 }
-
 
 
 .copiar {
@@ -137,8 +143,4 @@ main{
     width: 160px;
 }
 
-.informacion {
-    color: #AE9A6C;
-    font-size: 12px;
-    margin:  25px 210px;    
-}
+
