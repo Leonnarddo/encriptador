@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Inter&display=swap" rel="stylesheet">
     <title>Encriptador y Desencriptador</title>
 
 </head>
@@ -20,22 +21,23 @@
     </header>
     
     <main>
-        <section>
-            <textarea class="texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <section class="panelIzquierdo">
+            <p class="titulo">Encriptador</p>
+            <textarea class="texto" cols="27" rows="6" placeholder="Ingrese el texto aquí"></textarea>
             <div>
-                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                <p class="informacion">Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="botones">
                 <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
                 <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
-        <section>
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
+        <div class="panelDerecho">
+            <textarea readonly="yes" class="mensaje" cols="21" rows="10"></textarea>
             <div >
                 <button class="copiar">Copiar</button>        
             </div>
-        </section>
+        </div>
 
     </main>
     
